@@ -18,7 +18,7 @@ CHIP Add16 {
       Not(in=a[0], out=nota);
       And(a=a[0], b=nota, out=f);
 
-      FullAdder(a=a[0], b=b[0],   c=f,     sum=out[0],  carry=car0);
+      FullAdder(a=a[0], b=b[0],   c=false,     sum=out[0],  carry=car0);
       FullAdder(a=a[1], b=b[1],   c=car0,  sum=out[1],  carry=car1);
       FullAdder(a=a[2], b=b[2],   c=car1,  sum=out[2],  carry=car2);
       FullAdder(a=a[3], b=b[3],   c=car2,  sum=out[3],  carry=car3);
