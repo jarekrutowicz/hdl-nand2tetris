@@ -2,7 +2,9 @@
 *
 
 # Whitelist all directories
-!*/
+
 # Whitelist the file you're interested in. 
-!01*.hdl
+!01/*.hdl
+!02
+!02/*.hdl
 !.gitignore
