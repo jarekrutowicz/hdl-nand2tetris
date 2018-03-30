@@ -62,12 +62,7 @@ CHIP ALU {
       Mux16(a=functionOutput, b=negateFunctionOutput, sel=no, out=out);
       Mux16(a=functionOutput, b=negateFunctionOutput, sel=no, out=outCopy);
       
-      // zr, // 1 if (out == 0), 0 otherwise
-
-      //Not16(in=out, out=out);
-
       IsNeg16(in=outCopy, out=ng);
-
 
       Or16Way(in=outCopy, out=o);
       Not(in=o, out=zr);
