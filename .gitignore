@@ -12,4 +12,7 @@
 !03/a/*.hdl
 !03/b
 !03/b/*.hdl
+!04
+!04/mult
+!04/mult/*.asm
 !.gitignore
