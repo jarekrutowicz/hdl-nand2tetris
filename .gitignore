@@ -10,5 +10,6 @@
 !03
 !03/a
 !03/a/*.hdl
+!03/b
 !03/b/*.hdl
 !.gitignore
